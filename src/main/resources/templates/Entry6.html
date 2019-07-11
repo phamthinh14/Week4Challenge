@@ -15,10 +15,38 @@
 <!--End of sticky icons-->
 
 <h2 class="IntroText">Travelling Salesmen Algorithm</h2>
-<p id="textContent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, asperiores blanditiis cumque
-    dolore
-    et harum illo, ipsum labore, molestiae necessitatibus praesentium quidem voluptates? Ad consequuntur, exercitationem
-    incidunt inventore repellat sapiente?</p>
+<div class="container">
+    <p id="textContent">The traveling salesman problem is regarded as difficult to solve. If there is a way to break
+        this problem into smaller component problems, the components will be at least as complex as the original one.
+        This is what computer scientists call NP-hard problems.
+
+        Many people have studied this problem. The easiest (and most expensive solution) is to simply try all
+        possibilities. The problem with this is that for N cities you have (N-1) factorial possibilities. This means
+        that for only 10 cities there are over 180 thousand combinations to try (since the start city is defined, there
+        can be permutations on the remaining nine). We only count half since each route has an equal route in reverse
+        with the same length or cost. 9! / 2 = 181 440
+    <ul>
+        <li>Exact solutions to the problem can be found, using branch and bound algorithms. This is currently possible
+            for
+            up to 85,900 cities.
+        </li>
+        <li>Heuristics approaches use a set of guiding rules for selection of the next node. But since heuristics result
+            in
+            approximations, they will not always give the optimal solution, although high quality admissible heuristics
+            can
+            find a useful solution in a fraction of the time required for a full brute force of the problem. An example
+            of a
+            heuristic for a node would be a summation of how many unvisited nodes are "close by" a connected node. This
+            could encourage the salesman to visit a group of close-by nodes clustered together before moving onto
+            another
+            natural cluster in the graph. See Monte Carlo algorithms and Las Vegas algorithms
+        </li>
+    </ul>
+
+    </p>
+
+</div>
+
 <hr>
 <br>
 <div class="container">

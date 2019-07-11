@@ -1,3 +1,6 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+}
 
 .social-icons {
     text-align: center;
@@ -25,7 +28,7 @@
     text-align: center;
 }
 
-.row{
+.row {
     padding-left: 8%;
 }
 
