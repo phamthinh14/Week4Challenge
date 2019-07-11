@@ -1,0 +1,54 @@
+
+.social-icons {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.social-icons li {
+    display: flex;
+    list-style-type: circle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    alignment: center;
+    text-align: center;
+}
+
+.social-icons li a {
+    border-bottom: none;
+    text-align: center;
+}
+
+.social-icons li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.row{
+    padding-left: 8%;
+}
+
+.card {
+
+    position: center;
+}
+
+.card-body {
+
+    position: center;
+}
+
+.card-img-top {
+
+    position: center;
+}
+
+.card-footer {
+
+    position: center;
+}
+
+.card-text {
+    text-align: justify;
+}

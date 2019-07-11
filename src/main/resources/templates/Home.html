@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <th:block th:fragment="importBS">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Nunito&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+    </th:block>
+
+
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
+</head>
+<body STYLE="color: darkgrey">
+<!--Nav Bar-->
+<th:block th:fragment="navlinks">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; font-family: 'Merriweather Sans', sans-serif;">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="http://localhost:8080">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8080/about">About the Bootcamp</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8080/profile">Blog Authors</a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+    </nav>
+    <br>
+</th:block>
+<!--End of Nav Bar-->
+
+
+<div class="container">
+
+    <div class="container">
+        <h3><a class="btn btn-primary btn-lg" href="#" role="button
+        ">Blog Home</a></h3>
+    </div>
+    <br>
+    <div class="list-group">
+        <a href="http://localhost:8080/entry1" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Java Core</h5>
+                <small></small>
+            </div>
+            <p class="mb-1">If you only have a few fish or a small tarantula, you won't need an aquarium that takes up
+                the length of the wall. If you have a veritable pool of fish you need to house or a large iguana, that
+                may be a different story. Since you're making the aquarium, you get to call the shots.</p>
+            <button>View More</button>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Use annealed glass</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">This is also known as "plate" or "sheet" glass. Although annealed glass breaks into chunks
+                and slivers, its superior strength makes it a good choice for aquarium building.</p>
+            <button>View More</button>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action active ">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Choose the thickness of your annealed glass</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
+                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
+            <small class="text-muted"></small>
+            <button>View More</button>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action active ">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Arrange your glass pieces in an open area</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">Put the bottom piece of the glass down, surrounded by the front, back, and sides. Remember
+                that the sides should be just shorter than the final measurement so they can snugly fit into the length
+                between the front and back .</p>
+            <small class="text-muted"></small>
+            <button>View More</button>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Prep the glass</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">First, use acetone or rubbing alcohol on the sides of the glass. You want all the edges to
+                be clean as can be. Then cut strips of masking or duct tape that are about half the length of one side.
+                Stick half of each strip on the bottom of the bottom pane in every direction. The other half of the
+                strip should be lying freely on the table.</p>
+            <small class="text-muted"></small>
+            <button>View More</button>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Decide which aquarium size is fit for your needs</h5>
+                <small></small>
+            </div>
+            <p class="mb-1">If you only have a few fish or a small tarantula, you won't need an aquarium that takes up
+                the length of the wall. If you have a veritable pool of fish you need to house or a large iguana, that
+                may be a different story. Since you're making the aquarium, you get to call the shots.</p>
+            <button>View More</button>
+        </a>
+
+        <a href="#" class="list-group-item list-group-item-action active ">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Use annealed glass</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">This is also known as "plate" or "sheet" glass. Although annealed glass breaks into chunks
+                and slivers, its superior strength makes it a good choice for aquarium building.</p>
+            <button>View More</button>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action active ">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Choose the thickness of your annealed glass</h5>
+                <small class="text-muted"></small>
+            </div>
+            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
+                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
+            <small class="text-muted"></small>
+            <button>View More</button>
+        </a>
+
+
+    </div>
+
+</div>
+
+</body>
+</html>
