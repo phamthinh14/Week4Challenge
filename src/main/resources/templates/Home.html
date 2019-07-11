@@ -22,7 +22,7 @@
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                 crossorigin="anonymous"></script>
     </th:block>
-
+    <link rel="stylesheet" type="text/css" href="/homeDecorate.css">
 
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -34,7 +34,7 @@
         }
     </style>
 </head>
-<body STYLE="color: darkgrey">
+<body>
 <!--Nav Bar-->
 <th:block th:fragment="navlinks">
     <nav class="navbar navbar-light" style="background-color: #e3f2fd; font-family: 'Merriweather Sans', sans-serif;">
@@ -63,121 +63,119 @@
 <div class="container">
 
     <div class="container">
-        <h3><a class="btn btn-primary btn-lg" href="#" role="button
-        ">Blog Home</a></h3>
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Core Java</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Java Exception</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry1" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Java Recursion</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry2" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-footer text-muted">
+                07/11/2019
+            </div>
+        </div>
     </div>
+    <hr>
     <br>
-    <div class="list-group">
-        <a href="http://localhost:8080/entry1" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Java Exception</h5>
-                <small></small>
-            </div>
-            <p class="mb-1">If you only have a few fish or a small tarantula, you won't need an aquarium that takes up
-                the length of the wall. If you have a veritable pool of fish you need to house or a large iguana, that
-                may be a different story. Since you're making the aquarium, you get to call the shots.</p>
-            <button>View More</button>
-        </a>
 
-        <a href="http://localhost:8080/entry2" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Java Recursion</h5>
-                <small class="text-muted"></small>
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Github</h3>
             </div>
-            <p class="mb-1">This is also known as "plate" or "sheet" glass. Although annealed glass breaks into chunks
-                and slivers, its superior strength makes it a good choice for aquarium building.</p>
-            <button>View More</button>
-        </a>
-        <a href="http://localhost:8080/entry3" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">What is Github?</h5>
-                <small class="text-muted"></small>
+            <div class="card-body">
+                <h5 class="card-title">What is Github?</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry3" class="btn btn-primary">View More</a>
             </div>
-            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
-                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-
-        <a href="http://localhost:8080/entry4" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Github vs Gitlab</h5>
-                <small class="text-muted"></small>
+            <div class="card-body">
+                <h5 class="card-title">Github vs Gitlab</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry4" class="btn btn-primary">View More</a>
             </div>
-            <p class="mb-1">Put the bottom piece of the glass down, surrounded by the front, back, and sides. Remember
-                that the sides should be just shorter than the final measurement so they can snugly fit into the length
-                between the front and back .</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-
-        <a href="http://localhost:8080/entry5" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">The Circles of Program Design</h5>
-                <small class="text-muted"></small>
+            <div class="card-footer text-muted">
+                07/11/2019
             </div>
-            <p class="mb-1">First, use acetone or rubbing alcohol on the sides of the glass. You want all the edges to
-                be clean as can be. Then cut strips of masking or duct tape that are about half the length of one side.
-                Stick half of each strip on the bottom of the bottom pane in every direction. The other half of the
-                strip should be lying freely on the table.</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-
-        <a href="http://localhost:8080/entry6" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Travelling Salesmen Algorithm</h5>
-                <small></small>
-            </div>
-            <p class="mb-1">If you only have a few fish or a small tarantula, you won't need an aquarium that takes up
-                the length of the wall. If you have a veritable pool of fish you need to house or a large iguana, that
-                may be a different story. Since you're making the aquarium, you get to call the shots.</p>
-            <button>View More</button>
-        </a>
-
-        <a href="http://localhost:8080/entry7" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">Procedural and Object-Oriented Programming with Java</h5>
-                <small class="text-muted"></small>
-            </div>
-            <p class="mb-1">This is also known as "plate" or "sheet" glass. Although annealed glass breaks into chunks
-                and slivers, its superior strength makes it a good choice for aquarium building.</p>
-            <button>View More</button>
-        </a>
-        <a href="http://localhost:8080/entry8" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">A-PIE of Java</h5>
-                <small class="text-muted"></small>
-            </div>
-            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
-                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-        <a href="http://localhost:8080/entry9" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">HTML Tags</h5>
-                <small class="text-muted"></small>
-            </div>
-            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
-                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-        <a href="http://localhost:8080/entry10" class="list-group-item list-group-item-action active ">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">CSS Style Tag</h5>
-                <small class="text-muted"></small>
-            </div>
-            <p class="mb-1">If your aquarium is going to be full of water, you'll likely need to err on the side of
-                caution and go with thicker glass. 12" full of water is very different than 12" not full of water.</p>
-            <small class="text-muted"></small>
-            <button>View More</button>
-        </a>
-
-
+        </div>
     </div>
+    <hr>
+    <br>
 
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Program Design & Algorithms</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">The Circles of Program Design</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry5" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Travelling Salesmen Algorithm</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry6" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-footer text-muted">
+                07/11/2019
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Object-Oriented Java</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Procedural and Object-Oriented Programming with Java</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry7" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">A-PIE of Java</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry8" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-footer text-muted">
+                07/11/2019
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
+
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>HTML/CSS/Bootstrap</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">HTML Tags</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry9" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">CSS Tag</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="http://localhost:8080/entry10" class="btn btn-primary">View More</a>
+            </div>
+            <div class="card-footer text-muted">
+                07/11/2019
+            </div>
+        </div>
+    </div>
+    <hr>
+    <br>
 </div>
 
 </body>
