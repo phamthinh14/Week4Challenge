@@ -3,7 +3,7 @@ body {
 }
 
 .social-icons {
-    text-align: center;
+    alignment: left;
     margin-left: 10px;
 }
 
@@ -12,34 +12,24 @@ body {
     list-style-type: circle;
     -webkit-user-select: none;
     -moz-user-select: none;
-    alignment: center;
+    alignment: left;
     text-align: center;
 }
 
 .social-icons li a {
     border-bottom: none;
-    text-align: center;
+    text-align: left;
 }
 
 .social-icons li img {
     width: 20px;
     height: 20px;
-    margin-right: 15px;
-    text-align: center;
+    margin-right: 10px;
+    /*text-align: center;*/
 }
 
 .row {
-    padding-left: 8%;
-}
-
-.card {
-
-    position: center;
-}
-
-.card-body {
-
-    position: center;
+    padding-left: 10%;
 }
 
 .card-img-top {
@@ -54,4 +44,9 @@ body {
 
 .card-text {
     text-align: justify;
+}
+
+.container1{
+    alignment: left;
+    align-items: flex-start;
 }

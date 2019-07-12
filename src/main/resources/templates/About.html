@@ -7,9 +7,17 @@
     <th:block th:replace="/Home :: importBS">...</th:block>
 
     <title>About</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-        #more {display: none;}
+        .jumbotron {
+            text-align: justify;
+        }
+
+        .button {
+            alignment: center;
+            align-self: center;
+        }
     </style>
 </head>
 <body STYLE="color: black;
@@ -27,17 +35,36 @@
 <div class="container">
 
     <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action ">
-            <div class="d-flex w-100 justify-content-between">
 
-                <small></small>
-            </div>
-            <p>The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F) 8-week, immersive software engineering program funded by the Department of Labor. This course aims to increase the number of skilled software developers in this country. We do this by accepting qualified candidates who cannot afford the cost of a coding boot camp. If accepted into the program all fees will be covered by the program.</p>
-            <P>The Java Web Development Bootcamp takes you from your first java program to developing a web application. This course will give you a fast start on your career so you can take it to the next level. The course will teach you by forcing you to write over 130 java applications, including 5 major web applications. Programming challenges will keep you on your toes.</P>
-            <p>You'll learn to create web pages. You'll use frameworks and stored procedures. You'll connect to a database using the Java Persistence API(JPA) and Hibernate, and most importantly, all assignments are submitted through git, so you will learn to develop using best practices in class, to make it easy to contribute value when you are on the job.</p>
-            <p>The bootcamp is for programmers with a basic understanding of an object oriented language: Java, C#, VB.NET, Python, PHP, Ruby or C++. You do not need experience developing web applications.</p>
-            <P></P>
-        </a>
+        <!--            <div class="d-flex w-100 justify-content-between">-->
+
+        <!--                <small></small>-->
+        <!--            </div>-->
+        <p class="jumbotron" align="center">The Java Web Developer Boot Camp is an 8 hour a day (9 am - 5 pm, M-F)
+            8-week,
+            immersive software
+            engineering program funded by the Department of Labor. This course aims to increase the number of
+            skilled software developers in this country. We do this by accepting qualified candidates who cannot
+            afford the cost of a coding boot camp. If accepted into the program all fees will be covered by the
+            program.<br>
+            The Java Web Development Bootcamp takes you from your first java program to developing a web
+            application.
+            This course will give you a fast start on your career so you can take it to the next level. The course
+            will teach you by forcing you to write over 130 java applications, including 5 major web applications.
+            Programming challenges will keep you on your toes.<br>
+            You'll learn to create web pages. You'll use frameworks and stored procedures. You'll connect to a
+            database using the Java Persistence API(JPA) and Hibernate, and most importantly, all assignments are
+            submitted through git, so you will learn to develop using best practices in class, to make it easy to
+            contribute value when you are on the job.<br>
+            The bootcamp is for programmers with a basic understanding of an object oriented language: Java, C#,
+            VB.NET, Python, PHP, Ruby or C++. You do not need experience developing web applications.
+            <br>
+            <br>
+            <a class="button"
+               href="https://www.montgomerycollege.edu/workforce-development-continuing-education/information-technology/americas-promise-program/java-web-developer-boot-camp.html">
+                <button type="button" class="btn btn-primary btn-lg btn-block">View More</button>
+            </a>
+        </p>
 
 
     </div>

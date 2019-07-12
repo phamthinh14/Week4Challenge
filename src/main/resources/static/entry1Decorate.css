@@ -6,8 +6,12 @@ body {
     text-align: center;
 }
 
-#textContent {
-    text-align: center;
+.jumbotron{
+    text-align: justify;
+    /*text-justify: distribute-center-last;*/
+    width: 80%;
+    margin-left: 125px;
+    align-content: center;
 }
 
 .container {
@@ -17,3 +21,4 @@ body {
     /*left: 50%;*/
     top: 65%;
 }
+
