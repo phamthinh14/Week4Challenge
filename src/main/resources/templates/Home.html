@@ -23,7 +23,7 @@
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                 crossorigin="anonymous"></script>
     </th:block>
-    <link rel="stylesheet" type="text/css" href="/homeDecorate.css">
+    <!--<link rel="stylesheet" type="text/css" href="/homeDecorate.css">-->
 
     <title>Home</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -79,6 +79,10 @@
 
 <!--Content-->
 <div class="container">
+
+    <h1 style="font-family: 'Oswald', sans-serif; font-size: 50px; text-align: center">Welcome</h1>
+    <hr>
+    <br>
 
     <div class="container">
         <div class="card text-center">
@@ -219,6 +223,75 @@
 </div>
 <!--End Content-->
 
+<!--Sponsors Contents-->
+<th:block th:fragment="importHomeCSS">
+    <link rel="stylesheet" type="text/css" href="/homeDecorate.css">
+</th:block>
 
+<th:block th:fragment="importSponsors">
+    <div class="footer">
+        <h1 style="font-family: 'Oswald', sans-serif; font-size: 50px; text-align: center">Our Sponsors</h1>
+        <hr class="line">
+        <br>
+        <div class="row">
+            <div class="column">
+                <img class="sponsors"
+                     src="https://res.cloudinary.com/dzk3cvgwt/image/upload/c_scale,h_200,w_500/v1562939845/DOL-logo_pabph5.jpg">
+            </div>
+            <div class="column">
+                <img class="sponsors"
+                     src="https://res.cloudinary.com/dzk3cvgwt/image/upload/c_scale,h_200,w_500/v1562937980/logo_h63mng.jpg">
+            </div>
+        </div>
+    </div>
+    <!--<hr>-->
+    <br>
+</th:block>
+<!--End Sponsors Contents-->
+
+<!-- Site footer -->
+<th:block th:fragment="importFooter">
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h6>About</h6>
+                    <p class="text-justify">This page is to practice basic HTML/CSS/Bootstrap</p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="http://localhost:8080/about">About The Bootcamp</a></li>
+                        <li><a href="http://localhost:8080/profile">Contact Us</a></li>
+                        <li>
+                            <a href="https://www.google.com/maps/dir//12+South+Summit+Avenue,+Gaithersburg,+MD/@39.1410663,-77.2289152,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89b7d2d2c92add37:0x7f6da311cb6cbefb!2m2!1d-77.1938958!2d39.141005">
+                                Sitemap
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2019 All Rights Reserved by
+                        <a href="#">Thinh Pham and David</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</th:block>
 </body>
 </html>
